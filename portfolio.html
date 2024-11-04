@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriana's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://kit.fontawesome.com/98252f8353.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Adriana Swetel Dsouza</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Adriana Swetel Dsouza</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic_container">
+            <img src="./images/Me.jpg" alt="">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello I'm</p>
+            <h1 class="title">Adriana Swetel Dsouza</h1>
+            <p class="section_text_p2">Aspiring Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick= "window.open('')">Download Resume</button>
+                <button class="btn btn-color-1" onclick= "location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="social_container" alt="My Linkedin profile, github, contact and email information">
+                <i class="fa-brands fa-linkedin icon" onclick="location.href='https://www.linkedin.com/in/adriana-dsouza'"></i>
+                <i class="fa-brands fa-github icon" onclick="location.href='https://github.com/Eunoia-12'"></i>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section_container">
+            <div class="section_about_pic">
+                <img class="about-pic" 
+                src="./images/about.jpg" 
+                alt="">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <h3>Currently a <span>Graduate Student</span> at Wayne State University</h3>
+                    <p class="about-1">
+                        Growing up, I followed the path of academics without a clear direction until I came to the U.S. 
+                        to pursue my master’s in Data Science and Business Analytics. Initially drawn by the trends, I 
+                        soon uncovered a genuine passion for coding and problem-solving. My background is in Electrical and
+                        Electronics Engineering, but I always leaned toward IT, fueled by a natural interest in art. Frontend 
+                        development became the ideal path for me, merging technical skills with my creative mindset and bringing
+                        engineering and artistry together.<br>
+                        In my master’s program, I was challenged to build full-stack applications, focusing on databases, but it
+                        was the world of frontend development that truly hooked me. Through countless hours of learning HTML, CSS,
+                        and JavaScript, I became fascinated by the art of creating interactive, impactful user experiences. I realized
+                        that building applications wasn’t just technical work; it was a way to bring ideas to life.<br>
+                        This portfolio is my starting point. I’m eager to keep learning and gain practical exposure as a frontend developer,
+                    ready to bring dedication, curiosity, and a growing skill set to each new challenge.
+                    </p>
+                    <p class="about-2">
+                        Starting with a background in Electrical and Electronics Engineering, I discovered my passion 
+                        for frontend development while pursuing my master’s in Data Science and Business Analytics in
+                        the U.S. Drawn by the blend of art and technology, I found frontend to be the perfect path,
+                        letting me create interactive, meaningful user experiences. This portfolio marks the beginning
+                        of my journey as I dive deeper into frontend development, eager to learn, grow, and bring creativity
+                        and technical skill to new challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down arrow" onclick="location.href='#education'"></i>
+    </section>
+    <section id="education">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Education</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Master's of Science in Data Science and Business Analytics</h2>
+                    <div class="article-container">
+                        <article class="experience-article">
+                            <i class="fa-solid fa-feather-pointed icon"></i>
+                            <div class="paragraph-element">
+                                <p>Wayne State University, Detroit, Michigan, United States</p>
+                                <p>Major in Data Computing</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Bachelor's of Engineering in Electrical and Electronics Engineering</h2>
+                    <div class="article-container">
+                        <article class="experience-article">
+                            <i class="fa-solid fa-feather-pointed icon"></i>
+                            <div class="paragraph-element">
+                                <p>St. Joseph Engineering College, Mangalore,Karnataka, India</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down arrow" onclick="location.href='#experience'"></i>
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">ASX(Airspace Experience Technology)</h2>
+                    <p>Summer of 2024 (May 2024 - July 28)</p>
+                    <div class="paragraph-element">
+                        <h3>Aircraft Route and Communication Range Visualization Tool</h3>
+                        <br>
+                        <h4>Project Overview</h4>
+                        <br>
+                        <p>
+                            Developed a Flask-based web application that visualizes aircraft 
+                            routes and communication ranges in 3D, providing real-time route 
+                            updates accessible by aircraft computers. Integrated functionality 
+                            for extracting data from PCAP files, computing distances, and displaying 
+                            communication points on an interactive 3D map using CesiumJS.
+                        </p>
+                        <br>
+                        <h4>Key Responsibilities</h4>
+                        <br>
+                        <ul>
+                            <li>
+                                <h4>Data Extraction & Processing:</h4>
+                                <p>
+                                    Parsed ASN.1 payloads from BSM logs to extract location, 
+                                    distance, and time data points. Computed RSU to OBU distances 
+                                    to assess communication effectiveness.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Database Management:</h4>
+                                <p>
+                                    Set up and configured MongoDB with a scalable schema, enabling 
+                                    centralized storage and real-time updates of route data.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Front-End Development:</h4>
+                                <p>
+                                    Designed UI for network and route data display 
+                                    with dynamic updates using JavaScript, HTML, and CSS.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Geospatial Visualization:</h4>
+                                <p>
+                                    Created 3D and 2D map overlays with CesiumJS and Pydeck, 
+                                    allowing for interactive viewing of flight paths and 
+                                    communication ranges.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Backend Development:</h4>
+                                <p>
+                                    Developed robust Flask endpoints to capture, validate, 
+                                    and store network and route data. Enabled CSV generation 
+                                    for exporting data.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>User Interface Enhancements:</h4>
+                                <p>
+                                    Integrated interactive map tools and functionality for network and 
+                                    route management, including visualization of points with Cartesian3 
+                                    mapping for precise location data.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Testing and Optimization:</h4>
+                                <p>
+                                    Conducted performance testing for scalability, ensuring 
+                                    data integrity and feature reliability under various conditions.
+                                </p>
+                            </li>
+                        </ul>
+                        <br>
+                        <h4>Tools & Technologies:</h4>
+                        <p>
+                            Python (Flask, Streamlit), MongoDB, CesiumJS, JavaScript, 
+                            Wireshark, ArcGIS, PyMongo, HTML, CSS
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down arrow" onclick="location.href='#skills'"></i>
+    </section>
+    <section id="skills">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa-brands fa-html5 icon"></i>
+                            <div class="paragraph-element">
+                                <h3>HTML</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-css3-alt icon"></i>
+                            <div class="paragraph-element">
+                                <h3>CSS</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-js icon"></i>
+                            <div class="paragraph-element">
+                                <h3>JavaScript</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-react icon"></i>
+                            <div class="paragraph-element">
+                                <h3>React</h3>
+                                <p>intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="details-containers">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <i class="fa-brands fa-node icon"></i>
+                        <div class="paragraph-element">
+                            <h3>Node Js</h3>
+                            <p>beginner</p>
+                        </div>
+                    </article>
+                    <article>
+                        <i class="fa-solid fa-feather-pointed icon"></i>
+                        <div class="paragraph-element">
+                            <h3>Express</h3>
+                            <p>beginner</p>
+                        </div>
+                    </article>
+                    <article>
+                        <i class="fa-solid fa-feather-pointed icon"></i>
+                        <div class="paragraph-element">
+                            <h3>SQL</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <i class="fa-brands fa-python icon"></i>
+                        <div class="paragraph-element">
+                            <h3>Python</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down arrow" onclick="location.href='#projects'"></i>
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse my Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="project-section-container">
+            <div class="about-container">
+                <div class=" details-containers">
+                   <div class="project-video">
+                        <video id="project-1" controls muted>
+                            <source src="./images/Project_1_demo.mp4" type="video/mp4">
+                        </video>
+                   </div>
+                    <h2 class="project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/Eunoia-12/Sql_database_project'">
+                            GitHub
+                        </button>
+                    </div>
+                    <br>
+                    <div class="project-description">
+                        <h3>User Registration and Management System</h3>
+                        <br>
+                        <p>Technologies Used:</p>
+                        <ul>
+                            <li><b>Frontend:</b> <p>React</p></li>
+                            <li><b>Backend:</b> <p>Express.js, Node.js</p></li>
+                            <li><b>Database:</b> <p>SQL (using XAMPP)</p></li>
+                        </ul>
+                        <br>
+                        <h4>Project Overview:</h4>
+                        <p>This project involved creating a fully functional user management system with registration and sign-in capabilities</p>
+                        <br>
+                        <h4>Key Features:</h4>
+                        <ol>
+                            <li><h4>User Registration and Sign-In:</h4></li>
+                                <ul>
+                                    <li>
+                                        <p>Implemented a registration form to capture user details 
+                                            and store them in the database.</p>
+                                    </li>
+                                    <li>
+                                        <p>Developed a sign-in functionality that verifies user credentials 
+                                            and grants access to registered users.</p>     
+                                    </li>
+                                </ul>                                
+                            <li><h4>User Search Functionalities:</h4>
+                                <ul>
+                                    <li>
+                                    <p>Enabled searches by first and/or last name.</p>
+                                    </li>
+                                    <li>
+                                    <p>Added user search by user ID</p>
+                                    </li>
+                                    <li>
+                                    <p>Allowed searches for users based on specific criteria, such as:</p>
+                                    </li>
+                                        <ul>
+                                            <li><p>Salary range (between X and Y).</p></li>
+                                            <li><p>Age range (between X and Y).</p></li>
+                                            <li><p>Registration date (e.g., users who registered after a 
+                                                specific user or on the same day as a specific user).</p>
+                                            </li>
+                                        </ul>
+                                    <li>
+                                        <p>Displayed users who have never signed in.</p>
+                                    </li>
+                                    <li>
+                                        <p>Listed users who registered today.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><h4>Admin Page with Database Management:</h4></li>
+                            <ul>
+                                <li>
+                                    <p>Created an admin interface to manage users, with the ability to
+                                    delete and update records.</p>
+                                </li>
+                                <li>
+                                    <p>Designed the admin actions to interact with the backend, ensuring 
+                                    changes reflect in the database.</p>
+                                </li>
+                            </ul>
+                            <li><h4>Database Interaction:</h4>
+                                <p>Developed SQL queries for filtering, sorting, and retrieving data.</p>
+                            </li>
+                            <p>
+                                This project provided a strong foundation in backend-user management
+                                systems, advanced search functionalities, and secure data handling.<br>
+                            </p>
+                            <br>
+                            <h4>Outcome:</h4>
+                            <p>
+                                A fully operational user registration and management system with
+                                advanced search capabilities and an admin panel for managing user records.
+                            </p>
+                        </ol>
+                        <br>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <div class="project-video">
+                        <video controls muted>
+                            <source src="./images/Project_2_demo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h2 class="project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/Eunoia-12/PyAnalytics'">
+                            GitHub
+                        </button>
+                    </div>
+                    <br>
+                    <div class="project-description">
+                        <h3>YouTube Analytics Dashboard</h3>
+                        <br>
+                        <h4>Overview</h4>
+                        <br>
+                        <p>
+                            Developed a comprehensive analytics dashboard designed for YouTube content 
+                            creators, marketing professionals, and researchers. This tool provides insights 
+                            into channel performance, audience engagement, and content trends by leveraging 
+                            the YouTube API for real-time data access.
+                        </p>
+                        <br>
+                        <h4>Key Responsibilities</h4>
+                        <ul>
+                            <li>
+                                <h4><b>Frontend Development:</b></h4>
+                                <p>
+                                    Built a user-friendly dashboard interface using 
+                                    React for dynamic content rendering, CSS for styling, 
+                                    and JavaScript for template design.
+                                </p>
+                            </li>
+                            <li>
+                                <h4><b>Backend Development:</b></h4>
+                                <p>
+                                    Implemented a Flask server in Python to interface with the 
+                                    YouTube API, retrieving detailed data for analysis.
+                                </p>
+                            </li>
+                            <li>
+                                <h4><b>Data Analysis:</b></h4>
+                                <p>
+                                    Integrated Apache Spark for processing large datasets, 
+                                    enabling efficient handling and analysis of YouTube data.
+                                </p>
+                            </li>
+                            <li>
+                                <h4><b>API Integration:</b></h4>
+                                <p>
+                                    Utilized YouTube API to gather statistics on videos, 
+                                    which helped provide actionable insights for content creators 
+                                    aiming to optimize their channels.
+                                </p>
+                            </li>
+                        </ul>
+                        <br>
+                        <h4>Outcome</h4>
+                        <p>
+                            Created a streamlined analytics tool that enables users to easily 
+                            monitor and improve their YouTube content strategy, with the ability 
+                            to handle large datasets efficiently.
+                        </p>
+                        <h4>Technologies Used</h4>
+                        <p>
+                            React, Python (Flask), YouTube API, Apache Spark, CSS, JavaScript, JSON
+                        </p>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="project-title">Project Three</h2>
+                    <div class="project-description">
+                        <h3>Driveway-Sealing Management System for Contractor David Smith<span>(In Progress)</span></h3><br>
+                        <h4>Overview</h4>
+                        <p>
+                            Developing a web-based management system to streamline driveway-sealing 
+                            requests, quotes, work orders, and billing for clients, with a focus on 
+                            negotiation and dispute resolution functionalities. This project incorporates 
+                            user registration, quote requests, order tracking, and bill generation, while 
+                            allowing for real-time negotiation between contractor and client.
+                        </p>
+                        <br>
+                        <h4>Key Features to be Implemented</h4>
+                        <ul>
+                            <li>
+                                <h4>User Registration and ID Generation</h4>
+                                <p>Collects and secures client details with a unique client ID.</p>
+                            </li>
+                            <li>
+                                <h4>Quote and Negotiation Workflow:</h4>
+                                <p>Clients can request quotes with specific details and images of 
+                                the driveway. They can negotiate terms with the contractor, with 
+                                an iterative quote-and-response system until an agreement is reached 
+                                or negotiations are terminated.</p>
+                            </li>
+                            <li>
+                                <h4>Order and Billing Process:</h4>
+                                <p>Once a quote is accepted, an order of work is generated, and upon completion, 
+                                a bill is issued. Clients can either pay immediately or dispute the bill, 
+                                initiating a negotiation process until it is resolved or escalated.</p>
+                            </li>
+                        </ul>
+                        <br>
+                        <h4>Additional Database Queries and Insights</h4><br>
+                        <p>Implementation of advanced SQL queries to gather insights and support contractor decision-making:</p>
+                            <ol>
+                                <li>
+                                    <h4>Top Clients:</h4>
+                                    <p>Identifies clients with the highest number of completed orders.</p>
+                                </li>
+                                <li>
+                                    <h4>Difficult Clients:</h4>
+                                    <p>Highlights clients who sent multiple requests but never followed up.</p>
+                                </li>
+                                <li>
+                                    <h4>Monthly Agreed Quotes:</h4>
+                                    <p>Lists quotes agreed upon within a specified month.</p>
+                                </li>
+                                <li>
+                                    <h4>Prospective Clients:</h4>
+                                    <p>Identifies registered clients who haven't submitted any quote requests.</p>
+                                </li>
+                                <li>
+                                    <h4>Largest Driveway Orders:</h4>
+                                    <p>Lists locations of the largest driveways worked on.</p>
+                                </li>
+                                <li>
+                                    <h4>Overdue Bills:</h4>
+                                    <p>Tracks unpaid bills overdue by one week.</p>
+                                </li>
+                                <li>
+                                    <h4>Client Status Tracking:</h4>
+                                    <p>Classifies clients as "Good" or "Bad" based on their bill payment history.</p>
+                                </li>
+                            </ol>
+                            <br>
+                        <h4>Tools and Technologies</h4>
+                        <ul>
+                            <li><b>Frontend:</b> <p>React</p></li>
+                            <li><b>Backend:</b> <p>Node.js, Express.js, SQL Database (MySQL with XAMPP)</p></li>
+                            <li><b>Database Design:</b> <p>Includes E-R diagram with constraints and 
+                                CREATE TABLE statements with primary/foreign keys.</p></li>
+                        </ul>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down arrow" onclick="location.href='#hobbies'"></i>
+    </section>
+    <section id="hobbies">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Hobbies</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-containers">
+                    <div class="article-container">
+                        <article>
+                            <i class="fa-solid fa-music icon"></i>
+                            <div class="paragraph-element">
+                                <p>Singing</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/crochet.jpg" alt="crochet icon">
+                            <div class="paragraph-element">
+                                <p>Crochet</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-book icon"></i>
+                            <div class="paragraph-element">
+                                <p>Reading Novels</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-guitar icon"></i>
+                            <div class="paragraph-element">
+                                <p>Playing the Guitar</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-dragon icon"></i>
+                            <div class="paragraph-element">
+                                <p>Anime</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-brush icon"></i>
+                            <div class="paragraph-element">
+                                <p>Digital Art</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-image-portrait icon"></i>
+                            <div class="paragraph-element">
+                                <p>Sketching portraits</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down arrow" onclick="location.href='#contact'"></i>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact_info_upper_container">
+            <div class="contact-info-container">
+                <i class="fa-solid fa-envelope icon contact-icon"></i>
+                <p><a href="mailto:adrianadsouza0405@gmail.com">adrianadsouza0405@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-brands fa-linkedin icon contact-icon"></i>
+                <p><a href="https://linkedin.com/in/adriana-dsouza">Adriana Swetel Dsouza</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-solid fa-phone icon contact-icon"></i>
+                <p>+1 313-690-9613</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169 2024 Adriana Dsouza All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
